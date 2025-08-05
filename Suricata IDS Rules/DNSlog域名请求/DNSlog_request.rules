@@ -1,0 +1,4 @@
+alert udp $HOME_NET any -> $EXTERNAL_NET 53 (msg:"检测到DNSlog解析请求域名ceye.io" content:"ceye.io";sid:1000834;)
+alert udp $HOME_NET any -> $EXTERNAL_NET 53 (msg:"检测到DNSlog解析请求域名dnslog.cn" content:"dnslog.cn";sid:1000835;)
+alert udp $HOME_NET any -> $EXTERNAL_NET 53 (msg:"检测到DNSlog解析请求域名eyes.sh" content:"eyes.sh";sid:1000836;)
+alert udp $HOME_NET any -> $EXTERNAL_NET 53 (msg:"检测到DNSlog解析请求域名dig.pm" content:"dig.pm";sid:1000837;)

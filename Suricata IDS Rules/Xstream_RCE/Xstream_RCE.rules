@@ -1,0 +1,1 @@
+alert http any any -> any any (msg:"检测到Xstream RCE流量特征"; content:"dataSource";content:"rmi";content:"javax.sql.rowset.BaseRowSet";content:"com.sun.rowset.JdbcRowSetImpl";content:"fPullParserConfig";content:"parameter-types";content:"javax.naming.ldap.Rdn_-RdnEntry";nocase; sid:1000765;)

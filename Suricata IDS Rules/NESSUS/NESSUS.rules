@@ -1,0 +1,4 @@
+alert http any any -> any any (msg:"检测到NESSUS扫描器特征流量";content:"nessus";nocase; sid:1000087;)
+alert http any any -> any any (msg:"检测到NESSUS扫描器特征流量";content:"x_forwarded_for: nessus";nocase; sid:1000088;)
+alert http any any -> any any (msg:"检测到NESSUS扫描器特征流量";content:"referer: nessus";nocase; sid:1000089;)
+alert http any any -> any any (msg:"检测到NESSUS扫描器特征流量";content:"host: nessus";nocase; sid:1000090;)

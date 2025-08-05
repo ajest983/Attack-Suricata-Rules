@@ -1,0 +1,6 @@
+alert tcp $HOME_NET any -> $EXTERNAL_NET any (msg:"检测到FRP隧道流量特征";content:"|76 65 72 73 69 6F 6E 22 3A|";content:"|72 75 6E 5F 69 64|";content:"|65 72 5F 75 64 70 5F 70 6F 72 74|";sid:1000846;)
+alert tcp $EXTERNAL_NET any -> $HOME_NET any (msg:"检测到FRP隧道流量特征";content:"|76 65 72 73 69 6F 6E 22 3A|";content:"|72 75 6E 5F 69 64|";content:"|65 72 5F 75 64 70 5F 70 6F 72 74|";sid:1000847;)
+alert tcp $HOME_NET any -> $EXTERNAL_NET any (msg:"检测到FRP隧道流量特征"; content:"{\"run_id\":\""; nocase; sid:1000852; rev:1;)
+alert tcp $EXTERNAL_NET any -> $HOME_NET any (msg:"检测到FRP隧道流量特征"; content:"{\"run_id\":\""; nocase; sid:1000853; rev:1;)
+alert tcp $HOME_NET any -> $EXTERNAL_NET any (msg:"检测到FRP隧道流量特征";content:"|76 65 72|";content:"|73 69 6F 6E 22 3A 22|";content:"|68 6F 73 74 6E 61 6D 65|";content:"|22 6F 73|";content:"|75 73 65 72|";content:"|74 69 6D 65 73 74 61 6D 70|";sid:1000848;)
+alert tcp $EXTERNAL_NET any -> $HOME_NET any (msg:"检测到FRP隧道流量特征";content:"|76 65 72|";content:"|73 69 6F 6E 22 3A 22|";content:"|68 6F 73 74 6E 61 6D 65|";content:"|22 6F 73|";content:"|75 73 65 72|";content:"|74 69 6D 65 73 74 61 6D 70|";sid:1000849;)
