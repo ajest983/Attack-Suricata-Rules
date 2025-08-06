@@ -1,0 +1,2 @@
+alert tcp $EXTERNAL_NET any -> $HOME_NET any (msg:"检测到隧道流量-工具Venom";content:"|41 42 43 44 45 46 47 48 56 43 4D 44|";sid:1000872;)
+alert tcp $HOME_NET any -> $EXTERNAL_NET any (msg:"检测到隧道流量-工具Venom";content:"|41 42 43 44 45 46 47 48 56 43 4D 44|";sid:1000873;)
