@@ -38,3 +38,8 @@
 | CVE                 | ❌   |       | ❌   |
 
 
+# 检测示例
+
+### AWVS扫描器
+<img width="1918" height="1078" alt="屏幕截图 2025-08-08 132012" src="https://github.com/user-attachments/assets/1fe67852-39ce-491e-a0bd-5aae410f0e6c" />
+<img width="1717" height="932" alt="屏幕截图 2025-08-08 132059" src="https://github.com/user-attachments/assets/cbbfc769-2461-43dc-bc32-83a213be710e" />
