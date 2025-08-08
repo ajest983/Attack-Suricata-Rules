@@ -1,2 +1,2 @@
-alert http any any -> any any (msg:"检测到gobuster目录爆破测试";content:"User-Agent: gobuster";nocase; sid:1000104;)
-alert http any any -> any any (msg:"检测到gobuster目录爆破测试";content:"gobuster";nocase; sid:1000105;)
+alert http any any -> any any (msg:"检测到gobuster目录爆破测试";flow:to_server,established; content:"User-Agent: gobuster";nocase;classtype:dir-scan; priority:3; sid:1000104;rev:1;)
+alert http any any -> any any (msg:"检测到gobuster目录爆破测试";flow:to_server,established; content:"gobuster";nocase;classtype:dir-scan; priority:3; sid:1000105;rev:1;)

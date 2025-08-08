@@ -1,4 +1,4 @@
-alert http any any -> any any (msg:"检测到HTTP隧道流量-工具Neorge";content:"tunnel";content:"POST";sid:1000868;)
-alert http any any -> any any (msg:"检测到HTTP隧道流量-工具Neorge";content:"tunnel";content:"Cookie: PHPSESSID=";content:"POST";sid:1000869;)
-alert http any any -> any any (msg:"检测到HTTP隧道流量-工具Neorge";content:"tunnel";content:"POST";content:"Accept-Encoding: gzip, deflate";sid:1000870;)
-alert http any any -> any any (msg:"检测到HTTP隧道流量-工具Neorge";content:"tunnel";content:"POST";content:"Cookie:";sid:1000871;)
+alert http any any -> any any (msg:"检测到HTTP隧道流量-工具Neorge";content:"tunnel";content:"POST";classtype:tunnel-activity;priority:2; sid:1000868;rev:1;)
+alert http any any -> any any (msg:"检测到HTTP隧道流量-工具Neorge";content:"tunnel";content:"Cookie: PHPSESSID=";content:"POST";classtype:tunnel-activity;priority:2; sid:1000869;rev:1;)
+alert http any any -> any any (msg:"检测到HTTP隧道流量-工具Neorge";content:"tunnel";content:"POST";content:"Accept-Encoding: gzip, deflate";classtype:tunnel-activity;priority:2; sid:1000870;rev:1;)
+alert http any any -> any any (msg:"检测到HTTP隧道流量-工具Neorge";content:"tunnel";content:"POST";content:"Cookie:";classtype:tunnel-activity;priority:2; sid:1000871;rev:1;)

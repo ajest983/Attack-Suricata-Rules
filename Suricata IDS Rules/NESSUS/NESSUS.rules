@@ -1,4 +1,4 @@
-alert http any any -> any any (msg:"检测到NESSUS扫描器特征流量";content:"nessus";nocase; sid:1000087;)
-alert http any any -> any any (msg:"检测到NESSUS扫描器特征流量";content:"x_forwarded_for: nessus";nocase; sid:1000088;)
-alert http any any -> any any (msg:"检测到NESSUS扫描器特征流量";content:"referer: nessus";nocase; sid:1000089;)
-alert http any any -> any any (msg:"检测到NESSUS扫描器特征流量";content:"host: nessus";nocase; sid:1000090;)
+alert http any any -> any any (msg:"检测到NESSUS扫描器特征流量";flow:to_server,established; content:"nessus";nocase;classtype:vuln-scanner; priority:3; sid:1000087;rev:1;)
+alert http any any -> any any (msg:"检测到NESSUS扫描器特征流量";flow:to_server,established; content:"x_forwarded_for: nessus";nocase;classtype:vuln-scanner; priority:3; sid:1000088;rev:1;)
+alert http any any -> any any (msg:"检测到NESSUS扫描器特征流量";flow:to_server,established; content:"referer: nessus";nocase;classtype:vuln-scanner; priority:3; sid:1000089;rev:1;)
+alert http any any -> any any (msg:"检测到NESSUS扫描器特征流量";flow:to_server,established; content:"host: nessus";nocase;classtype:vuln-scanner; priority:3; sid:1000090;rev:1;)

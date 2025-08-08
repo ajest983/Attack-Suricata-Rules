@@ -1,2 +1,2 @@
-alert http any any -> any any (msg:"检测到SQLMAP工具流量";content:"User-Agent: sqlmap"; sid:1000020;)
-alert http any any -> any any (msg:"检测到SQLMAP工具流量";content:"https://sqlmap.org"; sid:1000021;)
+alert http any any -> any any (msg:"检测到SQLMAP工具流量";flow:to_server,established; content:"User-Agent: sqlmap";classtype:sql-injection; priority:1; sid:1000020;rev:1;)
+alert http any any -> any any (msg:"检测到SQLMAP工具流量";flow:to_server,established; content:"https://sqlmap.org";classtype:sql-injection; priority:1; sid:1000021;rev:1;)

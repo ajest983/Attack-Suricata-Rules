@@ -1,2 +1,2 @@
-alert http any any -> any any (msg:"检测到Rsas绿盟极光扫描器流量特征";content:"nsfocus";nocase; sid:1000096;)
-alert http any any -> any any (msg:"检测到Rsas绿盟极光扫描器流量特征";content:"User-Agent: Rsas";nocase; sid:1000097;)
+alert http any any -> any any (msg:"检测到Rsas绿盟极光扫描器流量特征";flow:to_server,established; content:"nsfocus";nocase;classtype:vuln-scanner; priority:3; sid:1000096;rev:1;)
+alert http any any -> any any (msg:"检测到Rsas绿盟极光扫描器流量特征";flow:to_server,established; content:"User-Agent: Rsas";nocase;classtype:vuln-scanner; priority:3; sid:1000097;rev:1;)
