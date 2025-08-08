@@ -40,26 +40,35 @@
 
 # 检测示例
 
-### AWVS扫描器
+### AWVS扫描器🛡️
 <img width="1918" height="1078" alt="屏幕截图 2025-08-08 132012" src="https://github.com/user-attachments/assets/1fe67852-39ce-491e-a0bd-5aae410f0e6c" />
 <img width="1717" height="932" alt="屏幕截图 2025-08-08 132059" src="https://github.com/user-attachments/assets/cbbfc769-2461-43dc-bc32-83a213be710e" />
 
-### MSF_Meterpreter
+### MSF_Meterpreter🛡️
 <img width="1718" height="932" alt="屏幕截图 2025-08-07 194848" src="https://github.com/user-attachments/assets/f673b871-e8ee-45f0-93b9-de0ef628de76" />
 <img width="1717" height="920" alt="屏幕截图 2025-08-07 194916" src="https://github.com/user-attachments/assets/d47fcb6f-48db-4b1b-9b53-357cc3d3e927" />
 
-### Fastjson_payload
+### Fastjson_payload🛡️
 <img width="728" height="1067" alt="屏幕截图 2025-08-07 195051" src="https://github.com/user-attachments/assets/19fe5598-61d4-435c-b13c-fddd13714172" />
 <img width="1715" height="930" alt="屏幕截图 2025-08-07 195108" src="https://github.com/user-attachments/assets/2e66dba9-0c1c-4d49-9b2c-c9720458f723" />
 
-### Frp_Tunnel 隧道
+### Frp_Tunnel 隧道🛡️
 <img width="1717" height="933" alt="屏幕截图 2025-08-07 215050" src="https://github.com/user-attachments/assets/e55f4474-e20f-4291-b2e9-6283aba9ac8f" />
 
-### Redis 未授权访问
+### Redis 未授权访问🛡️
 <img width="1717" height="938" alt="屏幕截图 2025-08-07 193850" src="https://github.com/user-attachments/assets/ec4a6b07-b05a-42c9-9640-7c2dd8d13496" />
 
-### SQLmap
+### SQLmap🛡️
 <img width="1717" height="933" alt="屏幕截图 2025-08-07 193026" src="https://github.com/user-attachments/assets/96b64f6f-fb87-4995-b154-a2be5cb0a007" />
 
-### 中国蚁剑Webshell连接工具
+### 中国蚁剑WebShell连接工具🛡️
 <img width="1833" height="962" alt="屏幕截图 2025-08-07 220018" src="https://github.com/user-attachments/assets/3ed30384-2077-4304-aec1-66dc850de604" />
+
+### 哥斯拉WebShell连接工具🛡️
+<img width="1777" height="986" alt="屏幕截图 2025-08-07 221131" src="https://github.com/user-attachments/assets/858f4ef8-b041-48d2-9606-e1d4dc2495ee" />
+
+### 冰蝎WebShell连接工具🛡️
+<img width="1715" height="933" alt="屏幕截图 2025-08-08 114700" src="https://github.com/user-attachments/assets/8b28491a-65b4-4dc9-bf63-28a6338b4f07" />
+
+### 挖矿🛡️
+<img width="1715" height="936" alt="屏幕截图 2025-08-07 190832" src="https://github.com/user-attachments/assets/68eb56af-c9fe-440c-81f2-25079da6becb" />
