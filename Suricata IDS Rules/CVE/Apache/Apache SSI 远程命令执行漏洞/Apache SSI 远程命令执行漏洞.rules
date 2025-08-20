@@ -1,0 +1,1 @@
+alert http $EXTERNAL_NET any -> $HOME_NET any (msg:"检测到Apache SSI 远程命令执行漏洞";content:"form-data";content:"filename=";content:".shtml";content:"<!--#exec";classtype:CVE-exploit;priority:1;sid:1000912;rev:1;)
